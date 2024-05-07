@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my portfolio web </title>
+        <link rel="stylesheet" href="style.css" >
+        <script src="https://kit.fontawesome.com/79bb7230ba.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id ="header">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#header">Home </a></li>
+                        <li><a href="#about">About</a></li>
+                      
+                        <li><a href="#skills-set">Skills</a></li>
+                        <li><a href="#projects-set">Projects</a></li>
+                        <li><a href="#contact-me">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="introRow">
+                    <p>Front End Developer</p>
+                    <h1>Hi ,I'm <span>Siva Sarvanan</span></h1>
+                 
+                </div>
+               
+            </div>
+           
+        </div>
+        <div id ="about">
+            <div clss="container" > 
+                <div class="row" > 
+                    <div class="col-1">
+                     <img src="images/black.png" > 
+                    </div>
+                    <div class="col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>Developed a dynamic personal website using HTML and CSS to present my portfolio, 
+                            skills, and professional background. The minimalist design ensures clarity and easy
+                            navigation, while CSS styling enhances visual appeal. Implemented responsive features
+                            for optimal viewing across devices. This project showcases proficiency in front-end web
+                            development, highlighting a clean and user-friendly design.</p>
+
+
+                            <div class="tab-titles" >
+                                <p class ="tab-links active-link" onclick="opentab('skills')">skills</p>
+                                <p class ="tab-links" onclick="opentab('Experience')">Experience</p>
+                                <p class ="tab-links" onclick="opentab('Education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id ="skills">
+                                <ul>
+                                    <li><span>Web Development</span><br>Web app development</li>
+                                    <li><span>Machine learnig</span><br>Data preprocessing and building predictive models</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id ="Experience">
+                                <ul>
+                                    <li><span>2022-present</span><br>Taskforce NITT Webops </li>
+                    
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id ="Education">
+                                <ul>
+                                    <li><span>2022-present</span><br>Civil Engineering and Minor in computer Science in NIT-Trichy</li>
+                                    <li><span>2020-2022</span><br>Higher Secondary in Maharishi vidya Mandir</li>
+                                </ul>
+                            </div>
+                    </div>
+
+
+
+                   
+                </div>
+            </div>
+        </div>
+<!----skils---->
+<div id="skills-set">
+    <div class="container">
+        <h1 class="subtitle">skills</h1>
+        <div class="skills-list">
+            <div>
+               
+                <h2>Wed dev</h2>
+                <p>
+                 Proficient in HTML, CSS, and JavaScript, I'm delving into frameworks to enhance efficiency and scalability. Let's craft captivating digital experiences together! 
+                </p>
+                <a href="#">Know more</a> 
+            </div>
+
+            <div>
+
+                <h2>Machine leraning</h2>
+                <p>
+                    Passionate about machine learning, I'm skilled in Python, data preprocessing, and model building. Currently diving into various frameworks and algorithms to optimize solutions and drive innovation. Let's collaborate to harness the power of AI and shape the future together!
+                 
+                </p>
+                <a href="#">Know more</a> 
+                
+            </div>
+            <div>
+                
+                <h2>web3</h2>
+                <p>
+                    Excited about the potential of Web3, I'm proficient in blockchain development, decentralized applications (dApps), and smart contracts. Actively exploring emerging technologies like IPFS and Solidity to create decentralized solutions that empower users and foster innovation. Let's pioneer the next generation of the web together    
+                      </p>
+                      <a href="#">Know more</a>          
+            </div>
+           
+        
+        </div>
+
+    </div>
+    <div id="projects-set">
+        <div class="container">
+            <h1 class="subtitle">Projects</h1>
+            <div class="projects-list">
+              <div class="projects">
+                <img src="images/projects.png" alt="yt-layout"> 
+                <div class="layer">
+                    <h3>Youtube Layout </h3>
+                    <p>In this knowledge i have used my Html and css knowledge to build home page layout of the youtube with responsive design </p>
+                </div>
+              </div> 
+              <div class="projects">
+                <img src="images/projects-2.png" alt="ml-layout"> 
+                <div class="layer">
+                    <h3>ML</h3>
+                    <p>I'm Currently working on the ml projects will be upadated here soon </p>
+                </div>
+              </div> 
+              <div class="projects">
+                <img src="images/projects-33.png" alt="web3-layout"> 
+                <div class="layer">
+                    <h3>Web3 </h3>
+                    <p>I'm Currently working on the Web3 projects will be upadated here soon</p>
+                </div>
+              </div>  
+               
+            
+            </div>
+    
+        </div>
+</div>
+<div id = "contact-me">
+    <div class="container">
+        <div class="row" > 
+        <div class="contact-left">
+            <h1 class="subtitle">contact</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> sivasaravanan5060@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+91 9566974196</p>
+            <div class="soc-icons">
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""> <i class="fa-brands fa-square-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+            </div>
+            <button class="cv">Download CV</button>
+
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required> 
+                <input type="email" name="Email" placeholder="Your Email Address" required>
+                <textarea  name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn2">Submit</button>
+            </form>
+
+        </div>
+    </div>
+    </div>
+
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents") ;
+        function opentab(tabname){ //first clearing out the existing content to display the selected ones
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link") ;
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab") ;
+            }
+    /*
+    event.currentTarget refers to the tab link that was clicked by the user.
+classList.add("active-link") adds the "active-link" class to the clicked tab link.
+    
+    */
+            event.currentTarget.classList.add("active-link") ; //by clicking the target 
+            document.getElementById(tabname).classList.add("active-tab") ; 
+            
+        }
+    </script>
+    </body>
+</html>
